@@ -262,6 +262,7 @@ form = dbc.Form(
 # Main App
 # Define app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 # Define Layout
 app.layout = html.Div(
     dbc.Container(
